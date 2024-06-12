@@ -1,0 +1,77 @@
+/*Me ayude mucho de youtube y de paginas para los diseños para hacer los grupos y darle un estilo mas formal*/
+
+body {
+    background-image: url('/css/img/1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    font-weight: 700;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.text-danger {
+    font-size: 0.875em;
+    margin-top: 0.5em;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.list-group-item:hover {
+    background-color: #d6d8db;
+}
+
+ul#lista-hobbies {
+    padding-left: 0;
+}
